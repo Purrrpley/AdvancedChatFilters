@@ -48,7 +48,7 @@ public class ScriptManager implements IMessageFilter {
     private ScriptManager() {}
 
     private void setupEngine() {
-        engine = NashornSandboxes.create();
+        engine = NashornSandboxes.create("--language=es6");
         // Restrict classes. Text is used for filters.
         engine.allow(Text.class);
         engine.allow(MutableText.class);
