@@ -53,7 +53,7 @@ public class TextBuilder {
     }
 
     /**
-     * Set's the color based off of an integer. Set's it through *all parts* - Color should be
+     * Sets the color based off of an integer. Sets it through *all parts* - Color should be
      * hexadecimal
      *
      * @param color Color to set the style to
@@ -64,7 +64,7 @@ public class TextBuilder {
     }
 
     /**
-     * Set's a style from another one to *all parts*
+     * Sets a style from another one to *all parts*
      *
      * @param style Style to set
      */
@@ -94,7 +94,7 @@ public class TextBuilder {
     }
 
     /**
-     * Set's an insertion string that will trigger on click. Will apply to the textbox.
+     * Sets an insertion string that will trigger on click. Will apply to the textbox.
      *
      * @param insertion The insertion that will get placed
      */
@@ -124,7 +124,7 @@ public class TextBuilder {
     }
 
     /**
-     * Set's the font using a namespace.
+     * Sets the font using a namespace.
      *
      * <p>namespace:name
      *
@@ -148,7 +148,7 @@ public class TextBuilder {
     }
 
     /**
-     * Set's the ClickEvent of the text to *all parts*
+     * Sets the ClickEvent of the text to *all parts*
      *
      * <p>Possible actions are: - open_url - run_command - suggest_command - change_page -
      * copy_to_clipboard
@@ -167,7 +167,7 @@ public class TextBuilder {
     }
 
     /**
-     * Set's the {@link Text} that will be shown on hover.
+     * Sets the {@link Text} that will be shown on hover.
      *
      * @param hoverText Text for hover
      */

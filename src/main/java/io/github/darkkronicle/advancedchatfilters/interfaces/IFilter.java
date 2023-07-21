@@ -31,7 +31,7 @@ public interface IFilter extends IMessageFilter {
     }
 
     /**
-     * Get's the color that the background should be.
+     * Gets the color that the background should be.
      *
      * @return SimpleColor that the background should be. If empty it won't change the color
      */

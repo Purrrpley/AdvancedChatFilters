@@ -77,7 +77,7 @@ public class ScriptFilter implements IScript<Text>, Comparable<ScriptFilter> {
     }
 
     /**
-     * Set's lines for hover from a string and automatically splits the lines.
+     * Sets lines for hover from a string and automatically splits the lines.
      *
      * @param text String
      */

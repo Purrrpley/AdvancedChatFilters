@@ -9,7 +9,7 @@ function setup(payload) {
 	payload.setAuthor('DarkKronicle')
 	payload.setId('remove_black')
 	payload.setDisplayName('Remove Color Black')
-	payload.setHoverLines("Replace's the color black with a dark gray.")
+	payload.setHoverLines("Replaces the color black with a dark gray.")
 }
 
 

@@ -49,7 +49,7 @@ public class ScriptFilterContext {
     }
 
     /**
-     * Get's the string content of the text
+     * Gets the string content of the text
      *
      * @return String content of the text
      */
@@ -58,7 +58,7 @@ public class ScriptFilterContext {
     }
 
     /**
-     * Get's matches based off of a {@link FindType} and match from the text
+     * Gets matches based off of a {@link FindType} and match from the text
      *
      * @param findType Name of the {@link FindType}
      * @param matchString String to match
@@ -71,7 +71,7 @@ public class ScriptFilterContext {
     }
 
     /**
-     * Get's a full {@link SearchResult} from a findtype and input string from the text.
+     * Gets a full {@link SearchResult} from a findtype and input string from the text.
      *
      * @param findType Name of the {@link FindType}
      * @param matchString String to match
@@ -82,7 +82,7 @@ public class ScriptFilterContext {
     }
 
     /**
-     * Set's the text. No formatting, just raw string data.
+     * Sets the text. No formatting, just raw string data.
      *
      * @param text Text to set it to.
      */
@@ -91,7 +91,7 @@ public class ScriptFilterContext {
     }
 
     /**
-     * Replace's text based on specific string replace.
+     * Replaces text based on specific string replace.
      *
      * @param start Start position to replace
      * @param end End position to replace
@@ -105,7 +105,7 @@ public class ScriptFilterContext {
     }
 
     /**
-     * Replace's text based on specific string replace.
+     * Replaces text based on specific string replace.
      *
      * @param start Start position to replace
      * @param end End position to replace
@@ -161,7 +161,7 @@ public class ScriptFilterContext {
     }
 
     /**
-     * Get's style at specific character position.
+     * Gets style at specific character position.
      *
      * @param pos Position to get the style
      * @return The style found
@@ -179,7 +179,7 @@ public class ScriptFilterContext {
     }
 
     /**
-     * Get's the {@link io.github.darkkronicle.advancedchatcore.util.Color} of a color
+     * Gets the {@link io.github.darkkronicle.advancedchatcore.util.Color} of a color
      *
      * @param style Style to grab color from
      * @return Color if it exists, null if there is no color
